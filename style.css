@@ -1,3 +1,4 @@
+.click,
 .button {
   height: 44px;
   padding: 14px 20px;
@@ -9,9 +10,30 @@
 .hidden {
 }
 
+.modal {
+  display: inline-flex;
+  padding: 36px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border-radius: 8px;
+  border: 1px solid var(--Stroke-light, #dee2e6);
+  background: var(---Gray-White, #fff);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 20px 20px 0px rgba(0, 0, 0, 0.08);
+}
+
 h1 {
   color: var(--Secondary-Dark-Color, #54595e);
   font-family: Inter;
   font-size: 20px;
   font-weight: 600;
+}
+
+p {
+  color: rgba(84, 89, 94, 0.6);
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 22px;
 }
