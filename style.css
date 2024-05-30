@@ -11,4 +11,7 @@
 
 h1 {
   color: var(--Secondary-Dark-Color, #54595e);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
 }
