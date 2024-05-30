@@ -1,4 +1,6 @@
 .button {
+  height: 44px;
+  padding: 14px 20px;
   background-color: var(--Dark-Medium, #4f4f4f);
   border-radius: 8px;
 }
