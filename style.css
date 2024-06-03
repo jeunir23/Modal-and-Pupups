@@ -26,6 +26,7 @@ body {
 }
 
 .button {
+  margin-left: 23%;
   height: 44px;
   padding: 14px 20px;
   background-color: var(--Dark-Medium, #4f4f4f);
@@ -52,6 +53,7 @@ body {
 }
 
 h1 {
+  text-align: center;
   color: var(--Secondary-Dark-Color, #54595e);
   font-family: Inter;
   font-size: 20px;
@@ -59,6 +61,7 @@ h1 {
 }
 
 p {
+  text-align: center;
   color: rgba(84, 89, 94, 0.6);
   font-family: Inter;
   font-weight: 400;
