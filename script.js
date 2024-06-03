@@ -23,3 +23,4 @@ const button = function () {
 btnsOpenModal.addEventListener('click', openModal);
 btnCloseModal.addEventListener('click', closeModal);
 clickButton.addEventListener('click', closeModal);
+overlay.addEventListener('click', closeModal);
